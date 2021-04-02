@@ -76,11 +76,11 @@ python train_GMM.py
 If you find this useful, please cite works as follows:
 
 ```
-  {  object_centrci_VAD,
-     author = {Wu Fan},
-     title = { A Implementation of {GMM-DAE} Using {Pytorch}},
-     year = {2020},
-     howpublished = {\url{https://github.com/wufan-tb/gmm_dae}}
-  }
+    {   GMM_DAE,
+        author = {Wu Fan},
+        title = { A Implementation of {GMM-DAE} Using {Pytorch}},
+        year = {2020},
+        howpublished = {\url{https://github.com/wufan-tb/gmm_dae}}
+    }
 ```
 
