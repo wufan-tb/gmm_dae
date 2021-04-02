@@ -15,7 +15,7 @@ of Representations](https://arxiv.org/pdf/2012.01468.pdf)
 
 - a better object-detector result can get better AUROC, (for example, large image size, regard smaller object box, use different conf-thres(train > test))
 - I get same result as the author in Ped2, yet big margin in Avenue and ShanghaiTech (nearly less ten point)
-- Score Calculation and Score Smoothing can get lead to a great improvement(you can find more details in [this repo](https://github.com/fjchange/object_centric_VAD) )
+- Score Calculation and Score Smoothing can get a great improvement(you can find more details in [this repo](https://github.com/fjchange/object_centric_VAD) )
 
 ### Requirements
 
