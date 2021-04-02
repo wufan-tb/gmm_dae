@@ -13,7 +13,7 @@ of Representations](https://arxiv.org/pdf/2012.01468.pdf)
 
 **Here are something you may think it's valuable.**
 
-- a better object-detector result can get better AUROC,(for example, large image size, regard smaller object box, use different conf-thres(train > test))
+- a better object-detector result can get better AUROC, (for example, large image size, regard smaller object box, use different conf-thres(train > test))
 - I get same result as the author in Ped2, yet big margin in Avenue and ShanghaiTech (nearly less ten point)
 - Score Calculation and Score Smoothing can get lead to a great improvement(you can find more details in [this repo](https://github.com/fjchange/object_centric_VAD) )
 
@@ -27,7 +27,7 @@ of Representations](https://arxiv.org/pdf/2012.01468.pdf)
 
 The framework include Three Parts:
 
-1. dataset prepare ,contain object detector(which I use [yolov5](https://github.com/ultralytics/yolov5)) and computer dynamic image;
+1. dataset prepare, contain object detect(which I use [yolov5](https://github.com/ultralytics/yolov5)) and computer dynamic image;
 2. train denoised auto-encoder;
 3. get feature cluster center(train GMM);
 4. caculate anomaly score(evaluate);
@@ -76,7 +76,7 @@ python train_GMM.py
 If you find this useful, please cite works as follows:
 
 ```
- misc{object_centrci_VAD,
+  {  object_centrci_VAD,
      author = {Wu Fan},
      title = { A Implementation of {GMM-DAE} Using {Pytorch}},
      year = {2020},
