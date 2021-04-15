@@ -34,7 +34,7 @@ The framework include Three Parts:
 
 ### Datasets
 
-You can get the download link from [here](github.com/StevenLiuWen/ano_pred_cvpr2018)
+You can get the download link from [here](http://github.com/StevenLiuWen/ano_pred_cvpr2018)
 
 ### Training:
 
